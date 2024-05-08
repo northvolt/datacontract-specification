@@ -490,7 +490,7 @@ servers:
 | Field  | Type     | Description                                                               |
 |--------|----------|---------------------------------------------------------------------------|
 | type   | `string` | `kinesis`                                                                 |
-| name   | `string` | The name of the Kinesis data stream.                                      |
+| stream | `string` | The name of the Kinesis data stream.                                      |
 | region | `string` | AWS region, e.g., `eu-west-1`.                                            |
 | format | `string` | The format of the records. Examples: json, avro, protobuf.                |
 
